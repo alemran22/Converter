@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Finder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-800 flex flex-col gap-6 justify-center items-center">
+    <header class="w-full flex flex-row bg-green-500 p-6 rounded-xl">
+        <a href="./index.html" class="w-3/12">
+            <img src="https://www.transparentpng.com/thumb/house/house-vector-5.png" alt=""
+                class="w-10 h-10 p-2 bg-white rounded-lg">
+        </a>
+        <div class=" w-6/12 text-center ">
+            <h1 class="text-white text-4xl font-extrabold ">Check Even Or Odd Number</h1>
+        </div>
+        <div class="w-3/12"></div>
+    </header>
+
+    <div
+        class="bg-white h-[calc(100vh-128px)] w-10/12 rounded-xl flex flex-col gap-5 justify-center items-center shadow-xl shadow-green-500">
+        <!-- input -->
+        <div class="w-4/12 flex flex-row gap-4 justify-center items-center ">
+            <input type="text" name="" id="input" onkeyup="calculation()" placeholder=""
+                class="w-11/12 outline-none p-3 border border-green-500 rounded-xl text-center text-green-500 text-3xl font-bold">
+
+        </div>
+        <!-- output -->
+        <div class="flex flex-row gap-4 justify-center items-center ">
+            <h2 class="text-5xl font-bold text-green-500  text-right" id="output"></h2>
+
+        </div>
+    </div>
+    <script src="./EvenFinder.js"></script>
+</body>
+
+</html>

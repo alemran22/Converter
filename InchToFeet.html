@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inch to Feet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-800 flex flex-col gap-6 justify-center items-center">
+    <header class="w-full flex flex-row bg-indigo-500 p-6 rounded-xl">
+        <a href="./index.html" class="w-full">
+            <img src="https://www.transparentpng.com/thumb/house/house-vector-5.png" alt=""
+                class="w-10 h-10 p-2 bg-white rounded-lg">
+        </a>
+        <div class=" w-full text-center ">
+            <h1 class="text-white text-4xl font-extrabold">Convert Inch To Feet</h1>
+        </div>
+        <div class="w-full"></div>
+    </header>
+
+    <div
+        class="bg-white h-[calc(100vh-128px)] w-10/12 rounded-xl flex flex-col gap-5 justify-center items-center shadow-xl shadow-indigo-500">
+        <!-- input -->
+        <div class="w-4/12 flex flex-row gap-4 justify-center items-center ">
+            <input onkeyup="calculation()" type="text" name="" id="input"
+                class="w-11/12 outline-none p-3 border border-indigo-500 rounded-xl text-center text-indigo-500 text-lg font-bold">
+            <span class="text-xl font-bold">Inch</span>
+        </div>
+        <!-- output -->
+        <div class="flex flex-row gap-4 justify-center items-center ">
+            <h2 id="output" class="text-5xl font-bold text-indigo-500  text-right" id="output">0 </h2>
+            <span class="text-xl font-bold">Feet</span>
+        </div>
+    </div>
+
+
+    <script src="InchToFeet.js"></script>
+</body>
+
+</html>

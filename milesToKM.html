@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Mile To KM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-800 flex flex-col gap-6 justify-center items-center">
+    <header class="w-full flex flex-row bg-orange-500 p-6 rounded-xl">
+        <a href="./index.html" class="w-full">
+            <img src="https://www.transparentpng.com/thumb/house/house-vector-5.png" alt=""
+                class="w-10 h-10 p-2 bg-white rounded-lg">
+        </a>
+        <div class=" w-full text-center ">
+            <h1 class="text-white text-4xl font-extrabold">Convert Mile To KM</h1>
+        </div>
+        <div class="w-full"></div>
+    </header>
+
+    <div
+        class="bg-white h-[calc(100vh-128px)] w-10/12 rounded-xl flex flex-col gap-5 justify-center items-center shadow-xl shadow-orange-500">
+        <!-- input -->
+        <div class="w-4/12 flex flex-row gap-4 justify-center items-center ">
+            <input type="text" name="" id="input" onkeyup="calculation()"
+                class="w-11/12 outline-none p-3 border border-orange-500 rounded-xl text-center text-orange-500 text-3xl font-bold">
+            <span class="text-2xl font-bold">Mile</span>
+        </div>
+        <!-- output -->
+        <div class="flex flex-row gap-4 justify-center items-center ">
+            <h2 class="text-5xl font-bold text-orange-500  text-right" id="output">0</h2>
+            <span class="text-3xl font-bold">KM</span>
+        </div>
+    </div>
+    <script src="milestoKM.js"></script>
+
+</html>
