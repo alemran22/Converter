@@ -13,9 +13,9 @@ function calculation() {
     const myNumber = input.value;
     // const output = input % 2 == 0;
     if (myNumber % 2 == 0) {
-        output.innerText = "Even Number";
+        output.innerText = `${myNumber} is Even Number`;
     }
     else {
-        output.innerText = "Odd Number";
+        output.innerText = `${myNumber} is Odd Number`;
     }
 };

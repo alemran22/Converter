@@ -12,9 +12,9 @@ const output = document.getElementById("output");
 function calculation() {
     const myYear = input.value;
     if (myYear % 4 == 0) {
-        output.innerText = "Leap Year";
+        output.innerText = `${myYear} is Leap Year`;
     }
     else {
-         output.innerText = "Normal Year";
+         output.innerText = `${myYear} is not Leap Year`;
     }
 };
